@@ -1,0 +1,409 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+/* nav sectionn */
+.bgi{
+  height: 100vh;
+  background: linear-gradient(rgba(0,0,0, 0.5),
+  rgba(0,0,0, 0.5)),url(./Photos/mainBackground.png);
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position: center;
+}
+.navbar{
+  display: flex;
+  padding:2rem 2rem 1rem 2rem;
+  margin: 0 4rem;
+  justify-content: space-between;
+  border-bottom: 1px solid rgb(214, 212, 212);
+}
+.aflex{
+  display: flex;
+  align-items: center;
+
+
+}
+.aflex a{
+text-decoration: none;
+color: rgb(214, 212, 212);
+margin-left: 2.5rem;
+}
+.main-h{
+  color: white;
+}
+.main-p{
+  font-size: 1rem;
+  margin-top: 2rem;
+  color: rgb(171, 170, 170);
+}
+.nav-content{
+  padding:7rem 0 0 0 ;
+  margin: 0 6rem;
+}
+.nav-card{
+  width: 40%;
+}
+/* logo-float */
+.logo-float{
+  position: relative;
+ 
+}
+.logo-name{
+  position: absolute;
+  background-color: white;
+  padding: 1rem;
+  border-radius: 1rem;
+ margin: 3rem 0 0 3.5rem;
+ box-shadow: 1px 2px  5px rgb(205, 204, 204);
+}
+.logo-name img{
+ padding: 1rem 2rem;
+}
+/* section2*/
+.section2{
+  margin-top: 10rem;
+}
+.sec2-h{
+  width: 30%;
+  margin: auto;
+}
+.sec2{
+  display: flex;
+  justify-content: space-between;
+  
+  margin: 5rem 6rem 10rem 6rem;
+}
+.r-one img{
+width: 21.3rem;
+height: 20rem;
+position: relative;
+border-radius: 1rem;
+
+}
+.r-one{
+  position: relative;
+}
+.imt{
+  margin-top: 2rem;
+}
+.imtr{
+  margin-top: 4rem;
+}
+.place{
+  width: 100%;
+ margin-left: 1rem;
+  display: flex;
+  justify-content: space-between;
+ align-items: center;
+ background-color: white;
+ border-radius: 1rem;
+padding: 0.5rem 3rem;
+box-shadow: 1px 2px  5px rgb(205, 204, 204);
+}
+.pos{
+  position: absolute;
+ 
+}
+.pos1{
+ bottom: 2.2rem
+}
+.pos2{
+  bottom:0.3rem ;
+}
+.pos3{
+ bottom: -2.2rem;
+}
+
+.place h3,.place p{
+  padding: 0.5rem 0 ;
+ 
+}
+.place p{
+  color: rgb(96, 96, 226);
+  font-weight: bold;
+}
+.click{
+  text-decoration: none;
+  font-size:0.7rem ;
+  display: inline-block;
+  background-color: rgb(96, 96, 226);
+  color: white;
+  font-weight: 700;
+  padding: 0.7rem 1.5rem;
+  border-radius: 1rem;
+ margin-left: 1rem;
+}
+
+.sec2dif{
+  flex-direction: row-reverse;
+}
+
+
+.content{
+  color: aliceblue;
+  padding: 10rem;
+}
+.sec3{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+ 
+}
+.left-card{
+  width: 35%;
+  height: 25rem;
+ border-radius: 2rem;
+
+}
+
+.right-card{
+  width: 35%;
+}
+.incard{
+  background-color: white;
+height: 90%;
+width: 73%;
+margin: auto;
+border-radius: 1.5rem;
+}
+.sec3-p{
+  font-size: 1rem;
+  margin-top: 2rem;
+  color: rgb(118, 118, 118);
+
+}
+
+.sec3-h{
+  font-size:3rem;
+}
+.bird{
+  text-decoration: none;
+  font-size:1rem ;
+  display: inline-block;
+  background-color: rgb(96, 96, 226);
+  color: white;
+  font-weight: 700;
+  padding: 0.7rem 2rem;
+  border-radius: 1rem;
+  margin-top: 2rem;
+} 
+.section3{
+  margin-top: 12rem;
+position: relative;
+}
+.fimg{
+  position: absolute;
+  top: 5.5rem;
+  background-color: rgb(96, 96, 226);
+border-top-right-radius: 1.5rem;
+border-bottom-right-radius: 1.5rem;
+  height: 23rem;
+  width: 33.5rem;
+  z-index: -1;
+}
+
+.fimg-2{
+  position: absolute;
+  top: 5.5rem;
+  right: 0;
+  background-color: rgb(96, 96, 226);
+  height: 23rem;
+  width: 33.5rem;
+  z-index: -1;
+  border-top-left-radius: 1.5rem;
+border-bottom-left-radius: 1.5rem;
+}
+.incard-2{
+  background-color: white;
+height: 90%;
+width: 73%;
+margin: auto;
+border-radius: 1.5rem;
+
+}
+.sec5-p{
+  color: white;
+}
+
+/* section 5 styling starts here */
+.section5{
+  width: 90%;
+  margin: auto;
+  margin-top: 10rem;
+  background-color:  rgb(96, 96, 226);
+  border-radius: 1.5rem;
+  color: white;
+  padding: 3rem 5rem;
+}
+.top-content{
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+.subscribe{
+  width: 60%;
+  margin: auto;
+  
+}
+.icon {
+
+  background:  url("./Icons/mail.png") no-repeat left;
+  background-size: 1.5rem;
+  background-position: 1rem;
+  background-color:  rgb(113, 113, 187);
+  
+width: 70%;
+border: none;
+border-radius: 1rem;
+padding: 0.7rem 4rem ;
+
+
+}
+::placeholder{
+  color: white;
+  font-weight:lighter;
+}
+.bird-2{
+  text-decoration: none;
+  font-size:1rem ;
+  display: inline-block;
+  background-color: rgb(247, 247, 249);
+  color:  rgb(93, 93, 196);
+  font-weight: 700;
+  padding: 0.7rem 2rem;
+  border-radius: 1rem;
+  margin-top: 2rem;
+  margin-left: 1rem;
+}
+/* footer section */
+.footer{
+  margin-top: 8rem;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 5rem;
+}
+.footer-left{
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+}
+ul{
+  list-style-type: none;
+}
+.social{
+  margin-top: 1rem;
+  display: flex;
+
+}
+.social img:not(:first-child){
+  margin-left: 1rem;
+}
+.flogo{
+  width: 30%;
+}
+
+li{
+  color: rgb(118, 118, 118);
+  margin-top: 2rem;
+}
+.footer-p{
+  margin-top: 2rem;
+  color: rgb(118, 118, 118);
+}
+
+
+
+@media screen and (max-width:756px){
+
+/* section3 card */
+html{
+  font-size: 12px;
+}
+.sec3{
+  display: flex;
+  flex-direction: column;
+  justify-self: space-between;
+  align-items: center;
+}
+.fimg-2,.fimg{
+  position: absolute;
+  top: 5.5rem;
+  height: 23rem;
+  width: 100%;
+  border-radius: none;
+  z-index: -1;
+  border-top-right-radius: 0rem;
+border-bottom-right-radius: 0rem;
+border-top-left-radius: 0rem;
+border-bottom-left-radius: 0rem;
+
+}
+.left-card{
+  width: 80%;
+}
+
+.right-card{
+  width: 73%;
+}
+.right-card{
+  margin-top: 10rem;
+}
+.sec4{
+  flex-direction: column-reverse;
+}
+.incard,.incard-2{
+  background-color: white;
+height: 89%;
+width: 85%;
+margin: auto;
+border-radius: 1.5rem;
+}
+/* section5 */
+
+.sec5-h{
+  font-size: 1.8rem;
+}
+.top-content{
+  width: 100%;
+ 
+}
+.icon {
+  margin-top: 2rem;
+width: 100%;
+padding: 0.5rem 1rem 0.5rem 3rem;
+}
+::placeholder{
+  color: white;
+  font-weight:lighter;
+  font-size: 1rem;
+}
+
+/* footer */
+.footer{
+  margin-top: 8rem;
+  display: flex;
+  flex-direction: column;
+  padding: 0 0;
+  
+}
+.flogo{
+  width: 100%;
+}
+.footer-left{
+  display: flex;
+  flex-direction: column;
+}
+.footer-left>div{
+  margin-top: 2rem;
+}
+li{
+ 
+  margin-top: 1rem;
+}
+}
+
+
+/* //background position read */
